@@ -23,7 +23,7 @@ public class LoginPage  {
 	private By loginBtn = By.xpath("//input[@value='Login']");
 	private By forgotPwdLink = By.linkText("Forgotten Password");
 	private By registerLink = By.linkText("Register");
-	//private By accLogoutMessage = By.cssSelector("div#content h1");
+	private By accLogoutMessage = By.cssSelector("div#content h1");
 
 	
 	// 2.create public page class constr.:i will call all method of this class in
