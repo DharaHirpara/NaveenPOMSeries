@@ -11,5 +11,7 @@ public void getName(){
     System.out.println("name");
 }
 
-
+    public void getData(){
+        System.out.println("name");
+    }
 }
