@@ -13,13 +13,13 @@
 				class-name="com.qa.opencart.listeners.AnnotationTransformer" />
 	</listeners>
 
-	<!--<test name="Open Cart Login Page Test chrome">
+	<test name="Open Cart Login Page Test chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
-	<test name="Open Cart Login Page Test firefox">
+	<!--<test name="Open Cart Login Page Test firefox">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
@@ -49,16 +49,16 @@
              <class name="com.qa.opencart.tests.RegisterTest" />
          </classes>
      </test>-->
-   <test name="Open Cart productInfo Page Test">
-         <parameter name="browser" value="chrome" />
-         <classes>
-             <class name="com.qa.opencart.tests.ProductInfoTest" />
-         </classes>
-     </test>
-     <!--  <test name="Open Cart ShoppingCart Page Test">
-         <parameter name="browser" value="chrome" />
-         <classes>
-             <class name="com.qa.opencart.tests.ShoppingCartPageTest" />
-         </classes>
-     </test>-->
+	<!--  <test name="Open Cart productInfo Page Test">
+           <parameter name="browser" value="chrome" />
+           <classes>
+               <class name="com.qa.opencart.tests.ProductInfoTest" />
+           </classes>
+       </test>
+  <test name="Open Cart ShoppingCart Page Test">
+           <parameter name="browser" value="chrome" />
+           <classes>
+               <class name="com.qa.opencart.tests.ShoppingCartPageTest" />
+           </classes>
+       </test>-->
 </suite>
