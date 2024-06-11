@@ -31,25 +31,25 @@
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>-->
-	<!--<test name="Open Cart Accounts Page Test">
+	<test name="Open Cart Accounts Page Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
-	</test>-->
-	<!--	<test name="Open Cart SearchResult Page Test">
+	</test>
+		<test name="Open Cart SearchResult Page Test">
             <parameter name="browser" value="chrome" />
             <classes>
                 <class name="com.qa.opencart.tests.SearchResultPageTest" />
             </classes>
-        </test>-->
-	<!--   <test name="Open Cart Registration Page Test">
+        </test>
+	   <test name="Open Cart Registration Page Test">
          <parameter name="browser" value="chrome" />
          <classes>
              <class name="com.qa.opencart.tests.RegisterTest" />
          </classes>
-     </test>-->
-	<!--  <test name="Open Cart productInfo Page Test">
+     </test>
+  <test name="Open Cart productInfo Page Test">
            <parameter name="browser" value="chrome" />
            <classes>
                <class name="com.qa.opencart.tests.ProductInfoTest" />
